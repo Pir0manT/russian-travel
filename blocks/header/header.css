@@ -9,13 +9,13 @@
 
 
 
-@media screen and (768px <= width <= 1023px) {
+@media screen and (max-width: 1023px) {
   .header {
     padding: 28px 24px 0;
   }
 }
 
-@media screen and (320px <= width <= 767px) {
+@media screen and (max-width: 767px) {
   .header {
     padding: 16px 16px 0;
   }

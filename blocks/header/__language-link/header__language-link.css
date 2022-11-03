@@ -12,7 +12,7 @@
   opacity: .8;
 }
 
-@media screen and (320px <= width <= 767px) {
+@media screen and (max-width: 767px) {
   .header__language-link {
     font-size: 18px;
     line-height: 20px;
