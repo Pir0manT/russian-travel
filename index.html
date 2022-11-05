@@ -70,7 +70,18 @@
   </section>
   <section class="places">
     <article class="place">
-      <h2 class="place__title">Куршская коса</h2>
+      <!-- Ниже расположен жуткий костыль, но без него никак :-(
+           согласно макету в figma при ширине экрана 768px для
+           place_title font-size = 42px но при таком размере шрифта
+           в заголовкене происходит переноса слова "коса" на следующую
+           строку, как это показано в макете.
+           Как следствие, все нижележащие блоки уезжают наверх более
+           чем на 40px по сравнению с макетом, а по условиям чеклиста
+           на этой контрольной точке погрешность верстки 10px
+           Поэтому в текс заголовка добавлен пробельный символ и
+           через медиа-запрос переключается логика его обработки -->
+      <h2 class="place__title">Куршская
+        коса</h2>
       <div class="place__website">
         <p class="place__url-heading">url</p>
         <a class="place__link" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
@@ -158,6 +169,12 @@
           в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
       </div>
     </article>
+  </section>
+  <section class="cover">
+    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
+      <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+      <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+    </a>
   </section>
 </main>
 </body>

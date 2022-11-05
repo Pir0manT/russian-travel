@@ -5,6 +5,7 @@
   grid-template-rows: 1fr;
   grid-gap: 48px 40px;
   font-style: normal;
+  box-sizing: border-box;
 }
 
 .place:first-of-type{
@@ -22,7 +23,7 @@
   .place{
     grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
-    padding: 73px 0 0;
+    padding: 72px 0 0;
   }
 }
 
