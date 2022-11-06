@@ -10,8 +10,6 @@
   .place__title{
     font-size: 42px;
     line-height: 46px;
-    /* Костыль (см. комментарий в index.html) */
-    white-space: pre-line;
   }
 }
 
@@ -20,7 +18,5 @@
     font-size: 32px;
     line-height: 35px;
     padding: 0 16px;
-    /* Костыль (см. комментарий в index.html) */
-    white-space: normal;
   }
 }

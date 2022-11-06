@@ -23,8 +23,12 @@
   <section class="lead">
     <h1 class="lead__title">Путешествия по России</h1>
     <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-    <img class="lead__image" alt="девушка спит в вагоне поезда" src="./images/lead-polka.jpg">
-    <p class="lead__caption">ваша полка — верхняя</p>
+    <figure class="lead__image" >
+      <img class="lead__image" src="./images/lead-polka.jpg" alt="девушка спит в вагоне поезда">
+      <figcaption class="lead__caption">
+        ваша полка — верхняя
+      </figcaption>
+    </figure>
   </section>
   <section class="intro">
     <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -71,18 +75,7 @@
   </section>
   <section class="places">
     <article class="place">
-      <!-- Ниже расположен жуткий костыль, но без него никак :-(
-           согласно макету в figma при ширине экрана 768px для
-           place_title font-size = 42px но при таком размере шрифта
-           в заголовкене происходит переноса слова "коса" на следующую
-           строку, как это показано в макете.
-           Как следствие, все нижележащие блоки уезжают наверх более
-           чем на 40px по сравнению с макетом, а по условиям чеклиста
-           на этой контрольной точке погрешность верстки 10px
-           Поэтому в текс заголовка добавлен пробельный символ и
-           через медиа-запрос переключается логика его обработки -->
-      <h2 class="place__title">Куршская
-        коса</h2>
+      <h2 class="place__title">Куршская коса</h2>
       <div class="place__website">
         <p class="place__url-heading">url</p>
         <a class="place__link link-opacity" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
