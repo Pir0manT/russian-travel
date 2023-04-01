@@ -1,19 +1,41 @@
-# Проект: Путешествие по России
+# Путешествие по России
+### *Учебный проект от [Яндекс.Практикум](https://practicum.yandex.ru/web/)*
 
-Проект о путешествии по России это адаптивный одностраничный сайт, на котором собраны статьи о необычных и очень красивых местах в России.
+> *«Ничто так не развивает ум, как путешествие» — Эмиль Золя.*<br/>
+> *«Путешествовать необходимо тем, кто учится» — Марк Твен.*
 
-## Использованы технологии
-+ HTML
-+ CSS
+## Описание проекта
+Проект посвящен путешествию по России и создан в рамках прохождения 3 спринта курса Веб-разработчик.
 
-## Реализация
-+ Проект собран по макету из [фигмы](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0);
-+ Grid-верстка;
-+ Адаптивная верстка (Desktop First);
-+ Файловая структура проекта собрана по правилам Nested (БЭМ);
-+ Подключение шрифтов через @font-face;
-+ Медиазапросы
+## Функционал:
+- User eXperience (UX);
+- Адаптивный интерфейс для разных устройств.
 
-## Cсылка на проект
+## Стек технологий:
+- HTML5;
+- CSS3:
+  - Flexbox;
+  - Grid Layout;
+  - Positioning;
+  - Adaptive UI;
+  - Media Queries;
+- Методология БЭМ;
+- Фйловая структура Nested БЭМ;
+- Вёрстка по макету в Figma.
 
-[Путешествие по России](https://pir0mant.github.io/russian-travel/)
+## Макет Проектной работы в Figma:
+- [Макет 3](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile).
+
+## Чеклист Проектной работы:
+
+- [Чеклист 3](https://code.s3.yandex.net/web-developer/checklists/new-program/checklist-3/index.html).
+
+## Скриншот:
+<details><summary><b>Развернуть</b></summary>
+
+[![russian-travel](https://user-images.githubusercontent.com/86494748/143667338-974fe2ab-8903-43cb-8d60-e9e0778cd19c.jpg)](https://pir0mant.github.io/russian-travel/)
+
+</details>
+
+## Ссылка на сайт:
+https://pir0mant.github.io/russian-travel/
